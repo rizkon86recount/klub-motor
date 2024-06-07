@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Klub Motor</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Custom CSS untuk membuat header menutupi lebar penuh */
+      #cover {
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* Mengatur tinggi header agar menutupi tinggi layar */
+        display: flex;
+        align-items: center;
+      }
+    </style>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Verza Klub</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#cover">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#vision">Visi & Misi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profil.html">Profil Perusahaan</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownCombined"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Lainnya
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownCombined"
+              >
+                <a class="dropdown-item" href="#products">Produk</a>
+                <a class="dropdown-item" href="#gallery">Galeri</a>
+                <a class="dropdown-item" href="#clients">Daftar Klien</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontak Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Cover -->
+    <header
+      id="cover"
+      class="jumbotron jumbotron-fluid text-white text-center"
+      style="
+        background-image: url('https://source.unsplash.com/1600x900/?motorcycle');
+      "
+    >
+      <div class="container">
+        <img
+          src="/image/klub.png"
+          alt="Logo Klub Motor"
+          class="img-fluid mb-3"
+          style="max-width: 200px"
+        />
+        <h1 class="display-4">Selamat Datang di Klub Verza</h1>
+        <p class="lead">komunitas Verza indonesia</p>
+      </div>
+    </header>
+
+    <!-- Tentang Kami -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Tentang Kami</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="https://source.unsplash.com/500x500/?motorcycle"
+              class="img-fluid"
+              alt="Tentang Kami"
+            />
+          </div>
+          <div class="col-md-6">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+              natus aperiam consequatur quae officiis unde. Consequuntur ipsa
+              iure sunt? Aliquid voluptas porro odit amet vel! Blanditiis
+              pariatur nesciunt libero aut minus ipsa fugit numquam? Mollitia
+              autem saepe sed, vero maxime alias nobis, nihil esse, natus qui
+              impedit! Est, temporibus animi.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              repudiandae, ex illo quasi modi doloribus dolores est, iste, autem
+              sed saepe voluptatem explicabo. Placeat adipisci fuga veritatis
+              quo necessitatibus ullam itaque corporis nam, iusto perspiciatis
+              voluptates voluptas molestias quod recusandae. Fugit, minima.
+              Fugit aspernatur ducimus ipsum, tempora voluptatibus voluptatum
+              sunt!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visi & Misi -->
+    <section id="vision" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Visi & Misi</h2>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="icon-box mb-3">
+              <img
+                src="https://source.unsplash.com/500x500/?motortrail"
+                alt="Visi"
+                class="img-fluid mb-3"
+              />
+            </div>
+            <h3>Visi</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
+              pariatur repellendus cumque dolore suscipit incidunt corporis
+              nostrum, veritatis consequatur libero rem quaerat numquam quos
+              necessitatibus tenetur tempora possimus at temporibus!
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="icon-box mb-3">
+              <img
+                src="https://source.unsplash.com/500x500/?motorsport"
+                alt="Misi 1"
+                class="img-fluid mb-3"
+              />
+            </div>
+            <h3>Misi 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              possimus suscipit id fuga, dignissimos corporis dolore consequatur
+              corrupti, aliquam nobis, itaque beatae incidunt temporibus? Omnis
+              dolorem quia suscipit exercitationem totam.
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="icon-box mb-3">
+              <img
+                src="https://source.unsplash.com/500x500/?motor"
+                alt="Misi 2"
+                class="img-fluid mb-3"
+              />
+            </div>
+            <h3>Misi 2</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Laboriosam quisquam omnis eum tempora perferendis molestias quae
+              harum impedit at rem? Obcaecati iure, qui alias illum eius minus
+              laudantium accusantium ullam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Produk/Jasa -->
+    <section id="products" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center">Produk/Jasa</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="https://source.unsplash.com/300x300?motor"
+                class="card-img-top"
+                alt="Pelatihan Berkendara"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pelatihan Berkendara</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Praesentium ipsam nisi deserunt itaque recusandae sed?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="https://source.unsplash.com/300x300?motorsport"
+                class="card-img-top"
+                alt="Acara Touring"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Acara Touring</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Deleniti consequatur vero voluptas, esse reiciendis minima.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="https://source.unsplash.com/300x300?motortrail"
+                class="card-img-top"
+                alt="Custom Motor"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Custom Motor</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic,
+                  animi! Tempore sapiente ad eveniet commodi?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeri -->
+    <section id="gallery" class="py-5">
+      <div class="container">
+        <h2 class="text-center">Galeri</h2>
+        <div id="carouselGallery" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://source.unsplash.com/1200x600?motorsport"
+                class="d-block w-100"
+                alt="Galeri 1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://source.unsplash.com/1200x600?motortrail"
+                class="d-block w-100"
+                alt="Galeri 2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://source.unsplash.com/1200x600?motorgp"
+                class="d-block w-100"
+                alt="Galeri 3"
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselGallery"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselGallery"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Daftar Klien -->
+    <section id="clients" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center">Daftar Klien</h2>
+        <div class="row">
+          <div class="col-md-3">
+            <img
+              src="https://source.unsplash.com/150x150?yamaha"
+              class="img-fluid mb-3"
+              alt="Klien 1"
+            />
+            <p class="text-center">PT. Yamaha Motor Indonesia</p>
+          </div>
+          <div class="col-md-3">
+            <img
+              src="https://source.unsplash.com/150x150?honda"
+              class="img-fluid mb-3"
+              alt="Klien 2"
+            />
+            <p class="text-center">PT. Astra Honda Motor</p>
+          </div>
+          <div class="col-md-3">
+            <img
+              src="https://source.unsplash.com/150x150?suzuki"
+              class="img-fluid mb-3"
+              alt="Klien 3"
+            />
+            <p class="text-center">PT. Suzuki Indomobil Motor</p>
+          </div>
+          <div class="col-md-3">
+            <img
+              src="https://source.unsplash.com/150x150?kawasaki"
+              class="img-fluid mb-3"
+              alt="Klien 4"
+            />
+            <p class="text-center">PT. Kawasaki Motor Indonesia</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5 class="mb-4">Klub Verza Indonesia</h5>
+            <p>Jl. Contoh No. 123, Kota Anda</p>
+            <p>Telepon: (123) 456-7890</p>
+            <p>Email: info@klubverza.co.id</p>
+          </div>
+          <div class="col-md-4">
+            <h5 class="mb-4">Ikuti Kami</h5>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="text-white"
+                  ><i class="fab fa-facebook-f mr-3"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-white"
+                  ><i class="fab fa-twitter mr-3"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-white"
+                  ><i class="fab fa-instagram mr-3"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-white"
+                  ><i class="fab fa-youtube mr-3"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5 class="mb-4">Newsletter</h5>
+            <form>
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Masukkan Email Anda"
+                  aria-label="Masukkan Email Anda"
+                  aria-describedby="button-addon2"
+                />
+                <div class="input-group-append">
+                  <button
+                    class="btn btn-primary"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    Berlangganan
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <hr class="bg-light" />
+        <p class="text-center mb-0">© 2024 Verza Club. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

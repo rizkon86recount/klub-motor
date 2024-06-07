@@ -1,0 +1,10 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000; /* Pastikan z-index lebih tinggi dari konten di bawahnya */
+  transition: top 0.3s; /* Animasi saat navbar bergerak */
+}
+
+body {
+  padding-top: 0px; /* Tinggi navbar agar konten tidak tertutup oleh navbar */
+}
